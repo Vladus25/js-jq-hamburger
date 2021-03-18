@@ -1,4 +1,6 @@
-// Funione per attivare burger
+// Primo metodo
+
+//Funione per attivare burger
 
 function btnWork() {
 
@@ -7,8 +9,26 @@ function btnWork() {
 
 // Funione per disattivare burger
 function btnNotWork(){
+
   $(".hamburger-menu").css("display", "none");
 }
 
 $('.fa-bars').click(btnWork);
 $('.fa-times').click(btnNotWork);
+
+// Secondo metodo
+
+// // Funione per attivare burger
+// function btnWork() {
+//
+//   $(".hamburger-menu").show();
+// }
+//
+// // Funione per disattivare burger
+// function btnNotWork(){
+//
+//   $(".hamburger-menu").hide();
+// }
+//
+// $('.fa-bars').click(btnWork);
+// $('.fa-times').click(btnNotWork);
